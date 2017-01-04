@@ -68,7 +68,7 @@ public class main {
 			 Receiver lr = deviceLaptop.getReceiver();
 		      //Receiver r = deviceR.getReceiver();
 	      Sequencer seq = MidiSystem.getSequencer(false);
-	      Sequence sequence = MidiSystem.getSequence(new File("midifile.mid"));
+	      //Sequence sequence = MidiSystem.getSequence(new File("midifile.mid"));
 	      MyReceiver myR = new MyReceiver(t, lr);
 	    
 			 @SuppressWarnings("unused")
